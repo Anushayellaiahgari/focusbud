@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*styling the top*/
+.top{
+    display: flex;
+    width:100%;
+    align-items: center;
+    /* background-color:crimson; */
+    justify-content: space-between;
+    padding:12px 24px;
+    color:crimson;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed; /* Stays at the top */
+    top: 0;
+    left: 0;
+    
+}
+
+#title {
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 15px;
+}
+
+#sign {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Spacing between items */
+    margin: 0;
+    padding: 0;
+    padding-right: 55px ;
+}
+
+#signb {
+    background-color:#007BFF ; /* Primary blue color */
+    color: white;
+    border: none;
+    padding: 12px 26px;
+    font-size: 18px;
+    font-weight:bolder;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+#signb:hover {
+    background-color:rgb(54, 151, 54); /* Darker blue */
+    transform: scale(1.05); /* Slightly enlarge */
+}
+
+/* Click Effect */
+#signb:active {
+    transform: scale(0.95); /* Press down effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the image */
+/* .image-container img {
+    width: 100%; /* Makes the image responsive 
+    max-width: 350px; /* Prevents it from getting too large 
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+/*/
+
+.image-container {
+    width: 300px; /* Set a fixed width for all images */
+    height: 300px; /* Set a fixed height for all images */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    overflow: hidden; /* Prevents overflow issues */
+    text-align: center;
+    transform: translateX(120px);
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure image fits horizontally */
+    max-height: 100%; /* Ensure image fits vertically */
+    object-fit: cover; /* Ensures all images fill the container while maintaining aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.image-container img {
+    animation: fadeIn 1s ease-in;
+}
+
+
+
+
+/* Centering the quote on the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*styling the button*/
+
+#but {
+    background-color: rgb(54, 151, 54); /* Primary blue color */
+    color: white;
+    border: none;
+    padding: 12px 26px;
+    font-size: 18px;
+    font-weight:bolder;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 10px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+#but:hover {
+    background-color:#007BFF; /* Darker blue */
+    transform: scale(1.05); /* Slightly enlarge */
+}
+
+/* Click Effect */
+#but:active {
+    transform: scale(0.95); /* Press down effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Styling the quote box */
+#quote {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    margin-top: 15px;
+    padding: 10px;
+
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start slightly lower */
+    animation: fadeInUp 1.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/* Preloader styles */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(173, 216, 230, 0.8); /* Light blue background */
+    display: none; /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+    z-index: 9999;
+}
+
+/* Panda GIF */
+#preloader img {
+    width: 80px; /* Adjust size */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Ensures it's centered */
+    transform: translateX(-20px);
+}
+
+/* Focus Buddy text */
+#preloader p {
+    font-size: 30px; /* Slightly larger text */
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px; /* Adjust spacing below GIF */
+    text-align: center;
+}
+
+
+/*MAIN HTML*/
+
+/* Center the content on the page */
+
+
+
+
+
+

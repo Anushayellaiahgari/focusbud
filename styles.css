@@ -1,0 +1,145 @@
+/* Reset Default Styles */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background: url(images/bg.jpg);
+    background-size:50%;
+}
+
+/* Centered Container */
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    height: 100vh;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+/* Navigation at the top inside the container */
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #ddd; /* Adds a subtle separator */
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    color: black;
+    background:#EEB499;
+    border-radius: 5px;
+}
+
+/* Timer Styles */
+h1 {
+    margin: 10px 0 0;
+    font-size: 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 36px;
+    color:#4C4631;
+    margin: 5px 0 0;
+}
+/* Buttons Section */
+.buttons {
+    display: flex;
+    justify-content: space-between; /* Places Reset, Start, and Settings properly */
+    align-items: center;
+    margin-top: 20px;
+    width: 100%; /* Makes sure buttons span across the container */
+}
+
+/* Button Styles */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Different Button Colors */
+#reset {
+    background-color: #FF6B6B;
+    color: white;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+#settings {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Hover Effects */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Settings Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.modal-content input {
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+}
